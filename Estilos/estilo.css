@@ -1,0 +1,295 @@
+:root{
+    --primary-color:#f5ce52
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://kambista.com/wp-content/themes/total-child-theme/imgs/home-atf-ciudad.svg);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.conversor-icono{
+    width: 190px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.moneda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.moneda select{
+    margin: 5px;
+    padding: 10px 20px 10px 10px;
+   
+    border: 1px solid #f4f4f4;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    
+}
+
+
+.moneda input{
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+}
+.tasa-cambio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cambio {
+    margin-top: 10px;
+    color: white;
+}
+
+select:focus, input:focus{
+    outline: 0;
+}
+
+.modal-header, .modal-footer {
+    display: flex;
+    justify-content: center;
+}
+.blue{
+    color: blue;
+}
+
+@media(max-widht:600px){
+    .moneda input{
+        width: 200px;
+    }
+}
+
+/* Estilos Formulario */
+
+#container-tasadelDia{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+   background-image: url(https://cdn.kambista.com/svg/bg-fondoconfian.svg);
+}
+
+#formulario{
+    max-width: 600px;
+    background-color: #14213d;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+h2{
+    color: #14213d;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h3{
+   color: #14213d;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#tasasdelDia{
+    flex: 1;
+    background-color: #14213d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+}
+
+#resultadoInput{
+    width: 100%;
+}
+
+#tasasdelDia li{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+#formulario .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#formulario .form-group label {
+    margin-bottom: 5px;
+    
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.contenido-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.transferencia img{
+    width: 100%;
+}
+
+
+/* // Estilos Formulario cita  */
+
+.contenedor-cita{
+    background-image: url(https://kambista.com/wp-content/themes/total-child-theme/imgs/home-atf-ciudad.svg);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mensaje-cita{
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-mensaje{
+    margin: auto;
+}
+
+#formulario_cita{
+    width: 45%;
+    padding: 20px;
+    
+}
+
+.h2_cita{
+    color: white;
+    text-align: center;
+}
+
+
+
+.contenedor-cita li{
+    color: white;
+    list-style: none;
+    padding: 15px;
+}
+
+.contenedor-cita p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #formulario_cita  input, select, textarea {
+    width: 60%; 
+    margin-top: 5px;
+    display: block;
+  }
+  
+   
+  
+  button {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  #comprobanteCita {
+    margin-top: 20px;
+    display: block;
+    width: 70%; 
+  }
+
+ .bannerWeb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+ .bannerWeb img{
+    width: 1005;
+ }
+
+ .footer-section h5 {
+    margin-bottom: 10px;
+}
+.footer-section p {
+    margin: 0;
+}
