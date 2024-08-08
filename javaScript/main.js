@@ -99,7 +99,7 @@ function realizarTransaccion(){
                     setTimeout(() =>{
                         resultadoInput.value ='';
                         form.reset();
-                    }, 7000);
+                    }, 10000);
 
 }
 
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     setTimeout(() =>{
         comprobanteCita.value ='';
         form.reset();
-    }, 7000);
+    }, 10000);
 
   
 });

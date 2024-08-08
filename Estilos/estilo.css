@@ -281,10 +281,11 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    
  }
  .bannerWeb img{
-    width: 1005;
+    width: 80%;
+    margin-top: 20px;
  }
 
  .footer-section h5 {
